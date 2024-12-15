@@ -1,0 +1,53 @@
+body{
+    background-color: #000000;
+}
+.gradient-cta{
+    background: #fd746c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9068, #fd746c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9068, #fd746c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.gradient-cta2{
+    background: #00C9FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.tableBackground{
+    background:radial-gradient(circle closest-side at center, hsla(0, 0%, 100%, 0) 0%, hsl(0, 0%, 0%) 100%), url('./assets/contentAssets/dinnerTable2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+  
+  .fade-out {
+    opacity: 0;
+  }
+  
+  .fade-in {
+    opacity: 1;
+  }
+  .slick-track {
+    display: flex;
+    
+
+  }
+
+  .fancy-radius{
+    border-radius:6% 6% 47% 6% / 6% 6% 68% 6%   ;
+  }
+  
+ /* Hide the default previous and next buttons */
+.slick-prev, .slick-next {
+  display: none !important;
+}
+
+
+.wavey{
+  background-image: url("./assets/delivery/wave.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
